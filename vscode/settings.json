@@ -17,8 +17,8 @@
        "editorGutter.background": "#292137",
        "[SynthWave '84]": {
             "editorSuggestWidget.selectedBackground": "#292137",
-            "sideBar.background": "#292137",
-        },
+            "sideBar.background": "#292137"
+        }
     },
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
@@ -59,7 +59,7 @@
         "trafficLightPosition": {
             "x": 20,
             "y": 13
-        },
+        }
     },
     "custom-ui-style.stylesheet": {
         ".notification-toast": "box-shadow: none !important",
@@ -82,7 +82,7 @@
         ".title .monaco-icon-label.file-icon": "margin: 0 60px",
         ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 75px",
         ".monaco-editor .margin, .monaco-editor .inputarea.ime-input": "background: none",
-        ".monaco-editor .cursors-layor .cursor": "color: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)",
+        ".monaco-editor .cursors-layor .cursor": "color: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
     },
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
@@ -93,5 +93,5 @@
             "!Module"
         ]
     },
-    "redhat.telemetry.enabled": false,
+    "redhat.telemetry.enabled": false
 }
