@@ -84,6 +84,7 @@
         ".monaco-editor .margin, .monaco-editor .inputarea.ime-input": "background: none",
         ".monaco-editor .cursors-layor .cursor": "color: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
     },
+    "files.autoSave": "afterDelay",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.defaultColorDecorators": "never",
