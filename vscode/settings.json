@@ -10,6 +10,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.indent": 10,
+    "workbench.hover.delay": 10000,
     "workbench.colorCustomizations": {
        "editorCursor.background": "#000",
        "editor.background": "#292137",
