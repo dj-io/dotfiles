@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "SynthWave '84",
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "bottom",
     "workbench.activityBar.orientation": "vertical",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": false,
@@ -11,14 +11,34 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.indent": 10,
     "workbench.hover.delay": 10000,
+    "window.customTitleBarVisibility": "never",
     "workbench.colorCustomizations": {
-       "editorCursor.background": "#000",
-       "editor.background": "#292137",
-       "editorOverviewRuler.border": "#292137",
-       "editorGutter.background": "#292137",
+        // vesper++ theme overrides
+       "workbench.background": "#1A1A1A",
+       "sideBar.background": "#1A1A1A",
+       "activityBar.background": "#1A1A1A",
+       "titleBar.activeBackground": "#292137",
+       "titleBar.inactiveBackground": "#292137",
+       "statusBar.background": "#1A1A1A",
+       "panel.background": "#1A1A1A",
+       "editorCursor.background": "#1A1A1A",
+       "breadcrumb.background": "#1A1A1A",
+       "breadcrumbPicker.background": "#1A1A1A",
+       "editorGroupHeader.tabsBackground": "#1A1A1A",
+       "editorGroupHeader.noTabsBackground": "#1A1A1A",
+       "editorGroupHeader.border": "#1A1A1A",
+       // vesper++ flat theme overrides
        "[SynthWave '84]": {
-            "editorSuggestWidget.selectedBackground": "#292137",
-            "sideBar.background": "#292137"
+           "editor.background": "#292137",
+           "editorSuggestWidget.selectedBackground": "#292137",
+           "editorOverviewRuler.border": "#292137",
+           "editorGutter.background": "#292137",
+           "sideBar.background": "#292137",
+           "breadcrumb.background": "#292137",
+           "breadcrumbPicker.background": "#292137",
+           "editorGroupHeader.tabsBackground": "#292137",
+           "editorGroupHeader.noTabsBackground": "#292137",
+           "editorGroupHeader.border": "#292137"
         }
     },
     "editor.minimap.enabled": false,
@@ -27,7 +47,7 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
-    "editor.fontSize": 10,
+    "editor.fontSize": 12,
     "editor.fontLigatures": true,
     // "editor.lineHeight": 1.5,
     // "editor.fontFamily": "Dank Mono",
@@ -51,15 +71,16 @@
     "explorer.decorations.badges": false,
     // "explorer.expandSingleFolderWorkspaces": true,
     "window.zoomLevel": 1,
-    "window.customTitleBarVisibility": "never",
     "window.titleBarStyle": "native",
+    "window.nativeTabs": false,
+    "extensions.ignoreRecommendations": true,
     "material-icon-theme.hidesExplorerArrows": true,
     "breadcrumbs.enabled": false,
     "custom-ui-style.electron": {
         "titleBarStyle": "hiddenInset",
         "trafficLightPosition": {
-            "x": 20,
-            "y": 13
+            "x": 75,
+            "y": 14.5
         }
     },
     "custom-ui-style.stylesheet": {
@@ -83,7 +104,7 @@
         ".title .monaco-icon-label.file-icon": "margin: 0 60px",
         ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 75px",
         ".monaco-editor .margin, .monaco-editor .inputarea.ime-input": "background: none",
-        ".monaco-editor .cursors-layor .cursor": "color: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+        ".monaco-editor .cursors-layor .cursor": "color: linear-gradient(135deg, #1A1A1A 10%, ##D4A959 90%)"
     },
     "files.autoSave": "afterDelay",
     "[python]": {
@@ -95,5 +116,10 @@
             "!Module"
         ]
     },
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "gitlens.graph.layout": "editor",
+    "gitlens.plusFeatures.enabled": false,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "editor.accessibilitySupport": "off"
+    // "workbench.colorTheme": "SynthWave '84",
 }
