@@ -1,0 +1,40 @@
+# theme
+
+theme = Tomorrow Night Burns
+mouse-hide-while-typing = true
+adjust-cell-height = 25%
+cursor-style = block
+shell-integration-features = no-cursor
+# cursor-style-blink = false
+macos-titlebar-style = transparent
+
+
+# font
+font-style = Fira Code
+font-size = 14
+
+# key-bindings (super = cmd)
+keybind = super+s>r=reload_config
+keybind = super+s>x=close_surface
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+# tabs
+keybind = super+s>t=new_tab
+keybind = super+s>shift+l=next_tab
+keybind = super+s>shift+r=previous_tab
+keybind = super+s>comma=move_tab:-1
+keybind = super+s>period=move_tab:1
+
+# quick tab switch
+keybind = super+s>1=goto_tab:1
+keybind = super+s>2=goto_tab:2
+keybind = super+s>3=goto_tab:3
+
+# splits
+keybind = super+s>equal=new_split:right
+keybind = super+s>minus=new_split:down
+
+keybind = super+s>j=goto_split:bottom
+keybind = super+s>k=goto_split:top
+keybind = super+s>h=goto_split:left
+keybind = super+s>l=goto_split:right
